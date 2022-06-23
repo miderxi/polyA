@@ -14,6 +14,7 @@
 ![图片](https://user-images.githubusercontent.com/41559035/175261729-f71cbc7a-c72f-4bf9-8e99-a07263ecdc5a.png)
 ![图片](https://user-images.githubusercontent.com/41559035/175261744-38ea944f-ba5e-4c3e-a95d-4811c5f06d6b.png)
 
+
 >3. comparation of AATAAA polyA site
 
 | AATAAA    | Sp（%）     | Sn（%）     | Acc（%）    |
@@ -22,6 +23,7 @@
 | ANN       | 80.55       | 80.55       | 82.06       |
 | SVM       | 37.2-71.0   | 74.6-96.7%  | 61.36       |
 | polyapred | 75.8-95.7   | 56.0-93.3   | 67.5-93.3   |
+
 
 >4. Grad-CAM visual
 > We confirm the mechanism that the human polyA signal is  determinded by 15 bp sequece of its upsteam and downstream  by conputation.
