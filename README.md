@@ -1,13 +1,13 @@
-> 1. PolyAdenylation mechanism
+## 1. Mechanism of polyadenylation
 
 ![图片](https://user-images.githubusercontent.com/41559035/175261562-794a7430-2b9b-43ed-b7fb-393ceace90a6.png)
 ![图片](https://user-images.githubusercontent.com/41559035/175261583-e10ad8c7-41ab-4944-85fa-a6e6fb64a960.png)
-[1]Salamov, Asaf A., and Victor V. Solovyev. "Recognition of 3'-processing sites of human mRNA precursors." *Bioinformatics* 13.1 (1997): 23-28.
-
-[1]Salamov, Asaf A., and Victor V. Solovyev. "Recognition of 3'-processing sites of human mRNA precursors." *Bioinformatics* 13.1 (1997): 23-28.
 
 
->2. twelve class polyA predict score（10 fold validation）
+>Salamov, Asaf A., and Victor V. Solovyev. "Recognition of 3'-processing sites of human mRNA precursors." *Bioinformatics* 13.1 (1997): 23-28.
+
+
+## 2.Prediction scores of twelve classes polyA（10-fold validation）
 
 
 ![图片](https://user-images.githubusercontent.com/41559035/175261716-592bf524-d6dc-4ef8-bed9-4c99b8933938.png)
@@ -15,7 +15,7 @@
 ![图片](https://user-images.githubusercontent.com/41559035/175261744-38ea944f-ba5e-4c3e-a95d-4811c5f06d6b.png)
 
 
->3. comparation of AATAAA polyA site
+## 3. Comparation with other methods in predicting AATAAA polyA site  
 
 | AATAAA    | Sp（%）     | Sn（%）     | Acc（%）    |
 | ----------- | ------------- | ------------- | ------------- |
@@ -25,8 +25,8 @@
 | polyapred | 75.8-95.7   | 56.0-93.3   | 67.5-93.3   |
 
 
->4. Grad-CAM visual
-> We confirm the mechanism that the human polyA signal is  determinded by 15 bp sequece of its upsteam and downstream  by conputation.
+## 4. Visualization by Grad-CAM 
+We confirm that the human polyA signal is determinded by 15 bp of its upsteam and downstream sequece.
 
 
 ![图片](https://user-images.githubusercontent.com/41559035/175262018-2521d202-1985-4ca8-ae56-492faff1f32a.png)
